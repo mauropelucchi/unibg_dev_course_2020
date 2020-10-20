@@ -5,4 +5,4 @@ This git repository contains the source code in C++ language to support the less
 Note: some sources contain errors on purpose, they will be solved during the lessons in class with the students.
 
 Index:
-- [hello_world.cpp](Hello World)
+- [Hello World](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/hello_world.cpp)

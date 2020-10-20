@@ -1,4 +1,4 @@
-# Universtity of Bergamo - 21012 Dev Course C++ 2020
+# University of Bergamo - 21012 Dev Course C++ 2020
 
 This git repository contains the source code in C++ language to support the lessons of the C++ programming module of the first year of Computer Engineering for the University of Bergamo.
 

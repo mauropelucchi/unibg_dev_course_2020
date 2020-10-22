@@ -22,5 +22,6 @@ Release
 ipch
 *sdf
 
+
 *.dSYM
 *.plist

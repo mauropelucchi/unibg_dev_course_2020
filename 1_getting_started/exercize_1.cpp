@@ -38,7 +38,12 @@ int main(int argc, char *argv[])
     cout << " to " << rad <<" rad";
   }
 
-  std::cout << "press any key to exit...";
-  // wait for user to hit enter or another key
+   // wait for user to hit enter or another key
+   std::cin.sync();
+   std::cout << "press enter to exit...";
+   std::cin.ignore();
+   // for Windows Users use
+   //
+   // system("pause");
 
 } // end main

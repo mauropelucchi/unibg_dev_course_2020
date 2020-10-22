@@ -15,6 +15,11 @@ void main(int argc, char *argv[])
   sum = num1 + num2;
   cout << "\n\nThe result is " << sum << "\n\n";
 
-  std::cout << "press any key to exit...";
-  // wait for user to hit enter or another key
+   // wait for user to hit enter or another key
+   std::cin.sync();
+   std::cout << "press enter to exit...";
+   std::cin.ignore();
+   // for Windows Users use
+   //
+   // system("pause");
 }

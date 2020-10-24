@@ -20,3 +20,16 @@ Solution to Getting Started:
 Exercizes
 - [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/1_getting_started/exercize_1.cpp)
 - [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/1_getting_started/exercize_2.cpp)
+
+# C++ Basics
+- [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_1_c++_basics/exercize_1.cpp)
+- [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_1_c++_basics/exercize_2.cpp)
+- [Exercize 2 (solved)](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_1_c++_basics/exercize_2_solved.cpp)
+- [Exercize 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_1_c++_basics/exercize_3.cpp)
+
+# Control flows
+- [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_1.cpp)
+- [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows++_basics/exercize_2.cpp)
+- [Exercize 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_3.cpp)
+- [Exercize 4](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_4.cpp)
+- [Exercize 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_5.cpp)

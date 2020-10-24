@@ -29,7 +29,7 @@ Exercizes
 
 # Control flows
 - [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_1.cpp)
-- [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows++_basics/exercize_2.cpp)
+- [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_2.cpp)
 - [Exercize 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_3.cpp)
 - [Exercize 4](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_4.cpp)
 - [Exercize 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_5.cpp)

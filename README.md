@@ -33,3 +33,14 @@ Exercizes
 - [Exercize 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_3.cpp)
 - [Exercize 4](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_4.cpp)
 - [Exercize 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/2_2_control_flows/exercize_5.cpp)
+
+# Small Applications
+- [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_1.cpp)
+- [Exercize 2a](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_2_a.cpp)
+- [Exercize 2b](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_2_b.cpp)
+- [Exercize 2c](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_2_c.cpp)
+- [Exercize 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_3.cpp)
+- [Exercize 4a](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_4_a.cpp)
+- [Exercize 4b](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_4_b.cpp)
+- [Exercize 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_5.cpp)
+- [Exercize 6](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/3_small_applications/exercize_6.cpp)

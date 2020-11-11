@@ -28,3 +28,6 @@ ipch
 
 *.dSYM
 *.plist
+
+
+.DS_Store

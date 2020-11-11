@@ -76,3 +76,7 @@ Exercizes
 - [Exercize 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/6_pointers/exercize_5.cpp)
 - [Exercize 6](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/6_pointers/exercize_6.cpp)
 - [Exercize 7](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/6_pointers/exercize_7.cpp)
+
+
+# Homeworks
+- [Celsius Converter Table](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/1_celsius_converter_table.cpp)

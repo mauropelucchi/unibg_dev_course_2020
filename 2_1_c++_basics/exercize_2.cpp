@@ -28,7 +28,7 @@ int main() {
    cout << "\n Digit cx: "; cin >> cx;
    cout << "\n Digit cy: "; cin >> cy;
 
-   lab = sqrt((ax-bx)*(ax-bx)+(ay-by)*(ay-by)); 
+   lab = sqrt((ax-bx)*(ax-bx)+(ay-by)*(ay-by)); // pow(base, exp) pow(4, 2)
    lac = sqrt((ax-cx)*(ax-cx)+(ay-cy)*(ay-cy));
    lbc = sqrt((bx-cx)*(bx-cx)+(by-cy)*(by-cy));
    
@@ -48,6 +48,7 @@ int main() {
       } else {
          cout << "\n Scalene !!! ";   
       }
+      
       if ((lab*lab == lac*lac+lbc*lbc) || 
          (lac*lac == lab*lab+lbc*lbc) ||
          (lbc*lbc == lab*lab+lac*lac)) {

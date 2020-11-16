@@ -78,5 +78,15 @@ Exercizes
 - [Exercize 7](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/6_pointers/exercize_7.cpp)
 
 
+# Recursive Functions 
+- [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_1.cpp)
+- [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_2.cpp)
+- [Exercize 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_3.cpp)
+- [Exercize 4](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_4.cpp)
+- [Exercize 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_5.cpp)
+- [Exercize 6](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_6.cpp)
+- [Exercize 7](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_7.cpp)
+- [Exercize 8](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/7_recursive_functions/exercize_8.cpp)
+
 # Homeworks
 - [Celsius Converter Table](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/1_celsius_converter_table.cpp)

@@ -102,6 +102,7 @@ Exercizes
 
 # Files
 - [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/8b_files/exercize_1.cpp)
+- [Exercize 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/8b_files/exercize_2.cpp)
 
 
 # Bonus

@@ -104,6 +104,9 @@ Exercizes
 - [Exercize 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/8b_files/exercize_1.cpp)
 
 
+# Bonus
+- [Exercize 9](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/8a_lists/exercize_9_bonus.cpp)
+
 
 # Homeworks
 - [Celsius Converter Table](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/1_celsius_converter_table.cpp)

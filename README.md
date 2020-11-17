@@ -106,7 +106,12 @@ Exercizes
 
 
 # Bonus
-- [Exercize 9](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/8a_lists/exercize_9_bonus.cpp)
+- [Bonus 1](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/1_bonus.cpp)
+- [Bonus 2](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/2_bonus.cpp)
+- [Bonus 3](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/3_bonus.cpp)
+- [Bonus 4](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/4_bonus.cpp)
+- [Bonus 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/5_bonus.cpp)
+- [Bonus 6](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/6_bonus.cpp)
 
 
 # Homeworks

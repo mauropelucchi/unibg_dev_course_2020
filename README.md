@@ -112,6 +112,7 @@ Exercizes
 - [Bonus 4](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/4_bonus.cpp)
 - [Bonus 5](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/5_bonus.cpp)
 - [Bonus 6](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/6_bonus.cpp)
+- [Bonus 7](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/bonus/7_bonus.cpp)
 
 
 # Homeworks

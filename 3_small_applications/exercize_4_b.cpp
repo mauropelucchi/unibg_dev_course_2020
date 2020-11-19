@@ -35,6 +35,8 @@ int main(int argc, char *argv[])
    cout << "\nInserire il valore in cui valutare il polinomio, x = ";
    cin >> x;
    f = 0;
+
+   // Horner
    for (i = 0; i <=n; i++) {
       f = f*x + V[i];
    }

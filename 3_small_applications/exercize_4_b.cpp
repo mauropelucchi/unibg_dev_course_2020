@@ -22,6 +22,8 @@ int main(int argc, char *argv[])
       cout << "\ninserire il grado del polinomio, n = ";
       cin >> n;
    } while ((n <= 0) || (n >= MAX_LEN));
+
+
    cout << "\ninserire i coeff. del pol. V_" << n << " … V_0:  \n";
    i = 0;
    do
@@ -32,7 +34,6 @@ int main(int argc, char *argv[])
 
    cout << "\nInserire il valore in cui valutare il polinomio, x = ";
    cin >> x;
-
    f = 0;
    for (i = 0; i <=n; i++) {
       f = f*x + V[i];

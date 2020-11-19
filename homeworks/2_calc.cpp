@@ -25,7 +25,7 @@ int main(int argc, char **argv)
     double quoziente;
     char scelta;
     bool quit = false;
-    cout << " Inserisci tre numeri interi compresi (0 <= n <= 100): ";
+    cout << " Inserisci tre numeri interi compresi (1 <= n <= 100): ";
     do
     {
 
@@ -36,7 +36,7 @@ int main(int argc, char **argv)
         cout << "\nNumero 3: ";
         cin >> n3;
 
-    } while (n1 < 0 || n1 > 100 || n2 < 0 || n2 > 100 || n3 < 0 || n3 > 100);
+    } while (n1 < 1 || n1 > 100 || n2 < 1 || n2 > 100 || n3 < 1 || n3 > 100);
 
     while (!quit)
     {

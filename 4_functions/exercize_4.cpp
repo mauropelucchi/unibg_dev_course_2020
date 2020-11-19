@@ -15,6 +15,12 @@ int proc1(int *par)
   return (23);
 }
 
+int proc1b(int &par)
+{
+  par = par - 7;
+  return (23);
+}
+
 void proc2(int *varX, int varY)
 {
   int varB;
@@ -36,6 +42,9 @@ int main()
   cout << "\n0) varA varB varC " << varA << varB << varC;
 
   varC = proc1(&varA); /* passo 1 */
+  cout << "\n1) varA varB varC " << varA << varB << varC;
+
+  varC = proc1b(varA); /* passo 1 */
   cout << "\n1) varA varB varC " << varA << varB << varC;
 
   proc2(&varA, varC); /* passo 2 */

@@ -117,6 +117,7 @@ Exercizes
 
 # Homeworks
 - [Celsius Converter Table](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/1_celsius_converter_table.cpp)
+- [Calc](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/2_calc.cpp)
 
 
 # Exams

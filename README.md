@@ -120,7 +120,7 @@ Exercizes
 - [Calc](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/2_calc.cpp)
 - [Array](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/3_array.cpp)
 - [Strings](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/4_strings.cpp)
-
+- [Structs](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/homeworks/5_structs.cpp)
 
 # Exams
 - [20151221](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/exams/20151221.cpp)

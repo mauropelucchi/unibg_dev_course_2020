@@ -60,7 +60,9 @@ int main()
 
   Point a, b, c;
   a = functionGetPoint();
-  b = functionGetPoint();
+  procedureGetPoint(&b);
+
+  //b = functionGetPoint();
   cout << "\n dist = " << distance(a, b);
   c = meanPoint(a, b);
   cout << "\n mean = (" << c.x << ", " << c.y << ")";

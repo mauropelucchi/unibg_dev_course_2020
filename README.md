@@ -4,6 +4,8 @@ This git repository contains the source code in C++ language to support the less
 
 Note: some sources contain errors on purpose, they will be solved during the lessons in class with the students.
 
+Some exercises are a selection of tasks and works collected from the series proposed by Prof. Giuseppe Psaila, Gerardo Pelosi at the University of Bergamo. Other exercises come from books (some not recent and of difficult attribution). Part of the proposals have been extensively revised by me.
+
 # Getting Started
 - [Hello World](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/1_getting_started/hello_world.cpp)
 - [Sum](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/1_getting_started/sum.cpp)

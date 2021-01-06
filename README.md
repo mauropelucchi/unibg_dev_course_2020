@@ -126,4 +126,5 @@ Exercizes
 
 # Exams
 - [20151221](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/exams/20151221.cpp)
+- Text: [20200617](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/exams/20200617.pdf) Solution: [20200617](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/exams/20200617.cpp)
 - Text: [20190222](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/exams/te20190222.pdf) Solution: [20190222](https://github.com/mauropelucchi/unibg_dev_course_2020/blob/main/exams/20190222.cpp)

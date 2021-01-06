@@ -46,12 +46,27 @@ struct NODO {
     NODO *next;
 };
 
-NODO* EstraiCouponDuplicatiUsati(NODO *&lista1, NODO *lista2);
-int Inserimento_in_Testa(NODO *&head, NODO *pCoupon);
+NODO* EstraiCouponDuplicatiUsati(NODO *lista1, NODO *lista2);
+NODO* Inserimento_in_Testa(NODO *head, COUPON info);
+int SpostaCoupon(NODO *&head, NODO *lista);
+void CreaListaCoupon(NODO *&head);
+void StampaLista(NODO *head);
 
 int main() {
 
-    NODO *head;
+    NODO *head1 = NULL;
+    NODO *head2 = NULL;
+    NODO *head3 = NULL;
+    CreaListaCoupon(head1);
+    CreaListaCoupon(head2);
+
+    head3 = EstraiCouponDuplicatiUsati(head1, head2);
+    StampaLista(head3);
+
+}
+
+
+void CreaListaCoupon(NODO *&head) {
     int scelta = -1;
     while(scelta != 0) {
         COUPON info;
@@ -69,31 +84,78 @@ int main() {
         cin >> info.stato;
         cin.ignore(55, '\n');
         
-        NODO *pCoupon;
-        pCoupon = new NODO();
-        pCoupon->info = info;
-        pCoupon->next = NULL;
-        int esito = Inserimento_in_Testa(head, pCoupon);
-
-        cout << "Esito inserimento: " << esito << endl;
-
+        head = Inserimento_in_Testa(head, info);
 
         cout << "Vuoi continuare (0 termina, <> 0 continuo)" << endl;
         cin >> scelta;
+        cin.ignore(55, '\n');
 
     }
-
 }
 
-
-int Inserimento_in_Testa(NODO *&head, NODO *pCoupon) {
+NODO* Inserimento_in_Testa(NODO *head, COUPON info) {
     NODO *t;
     t = new NODO;
     if( t == NULL)
-        return 1;
+        return NULL;
     
-    t->info = pCoupon->info;
+    t->info = info;
+    t->next= NULL;
+    if (head == NULL)
+        return t;
+
     t->next = head;
-    head = t;
+    return t;
+}
+
+bool VerificaCoupon(NODO *head, char *codice) {
+    NODO *p = head;
+    while (p != NULL) {
+        if(strcmp(p->info.codice, codice) == 0) {
+            return false;
+        }
+        p = p->next;
+    }
+    return true;
+}
+
+
+int SpostaCoupon(NODO *&head, NODO *lista, int stato) {
+    NODO *p = lista;
+    while (p != NULL) {
+        if(VerificaCoupon(head, p->info.codice)) {
+            COUPON info = p->info; 
+            info.stato = stato; 
+            head = Inserimento_in_Testa(head, info);
+            if (head == NULL) {
+                return 1;
+            }
+        }
+        p = p->next;
+    }
     return 0;
+}
+
+NODO* EstraiCouponDuplicatiUsati(NODO *lista1, NODO *lista2)
+{
+
+    NODO *nuovaHead = NULL;
+    int esito;
+    esito = SpostaCoupon(nuovaHead, lista1, 1);
+    if (esito != 0) {
+            return NULL;
+    }
+    esito = SpostaCoupon(nuovaHead, lista2, 2);
+    if (esito != 0) {
+        return NULL;
+    }
+    return nuovaHead;
+}
+
+void StampaLista(NODO *head) {
+    NODO *p = head;
+    while (p != NULL) {
+        cout << p->info.codice << " -- " << p->info.stato << endl;
+        p = p->next;
+    }
 }

@@ -46,10 +46,11 @@ struct NODO {
     NODO *next;
 };
 
-NODO* EstraiCouponDuplicatiUsati(NODO *lista1, NODO *lista2);
-NODO* Inserimento_in_Testa(NODO *head, COUPON info);
-int SpostaCoupon(NODO *&head, NODO *lista);
 void CreaListaCoupon(NODO *&head);
+NODO* Inserimento_in_Testa(NODO *head, COUPON info);
+bool VerificaCoupon(NODO *head, char *codice);
+NODO* EstraiCouponDuplicatiUsati(NODO *lista1, NODO *lista2);
+int SpostaCoupon(NODO *&head, NODO *lista, int stato);
 void StampaLista(NODO *head);
 
 int main() {

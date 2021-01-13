@@ -32,8 +32,6 @@ N.B. Si eviti la duplicazione del codice.
 
 using namespace std;
 
-#define MAX_DATE 8
-
 struct PRODOTTO
 {
     char codice[13];

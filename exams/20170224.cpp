@@ -77,7 +77,7 @@ void CreaLista(NODO *&head)
     {
         PRODOTTO info;
         cout << "Inserisci il codice" << endl;
-        cin.getline(info.codice, 10, '\n');
+        cin.getline(info.codice, 12, '\n');
         cout << "Inserisci la data di inserimento" << endl;
         cin.getline(info.data_inserimento, 10, '\n');
         cout << "Inserisci il prezzo" << endl;

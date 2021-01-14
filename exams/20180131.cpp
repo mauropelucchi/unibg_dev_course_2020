@@ -59,6 +59,7 @@ struct NODO
 void CreaLista(NODO *&head);
 int CreaListaDataScadenza(char *datescadenza[]);
 NODO *Inserimento_in_Testa(NODO *head, BUONO info);
+
 int ControllaBuoni(NODO *lista, char *datescadenza[], int size);
 int QualeElenco(NODO *lista1, NODO *lista2, char *datescadenza[], int size);
 
@@ -72,7 +73,7 @@ int main()
 
     for (int i = 0; i < MAX_DATE; i++)
     {
-        datescadenza[i] = (char *)malloc(11);
+        datescadenza[i] = (char *) malloc(11);
     }
     int size;
     int controllo;
@@ -138,7 +139,7 @@ void CreaLista(NODO *&head)
 NODO *Inserimento_in_Testa(NODO *head, BUONO info)
 {
     NODO *t;
-    t = new NODO;
+    t = new NODO;  // (NODO *) malloc(sizeof(NODO))
     if (t == NULL)
         return NULL;
 
@@ -156,11 +157,12 @@ int ControllaBuoni(NODO *lista, char *datescadenza[], int size)
     int totale = 0;
     while (lista != NULL)
     {
-        for (int i = 0; i < size; i++)
+        for (int i = 0; (i < size); i++)
         {
             if (strcmp(lista->info.data_scadenza, datescadenza[i]) == 0)
             {
                 totale++;
+                break;
             }
         }
         lista = lista->next;

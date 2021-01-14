@@ -161,6 +161,7 @@ int ControllaBuoni(NODO *lista, NODO *seconda_lista, char *datescadenza[], int s
             for(int i = 0; i < size; i++) {
                 if(strcmp(lista->info.data_scadenza, datescadenza[i]) == 0) {
                     totale++;
+                    break;
                 }
             }
         }

@@ -7,7 +7,7 @@ In particolare il problema si occupa di generare un array di 50 numeri casuali c
 2. Visualizzare il massimo
 3. Visualizzare il minimo
 4. Rigenerare l’array
-5. Visualizzare i valori che deltaano meno di 4 dalla media
+5. Visualizzare i valori che distano meno di 4 dalla media
 6. Calcolare la moda
 7. Uscire dal programma
 
@@ -39,7 +39,7 @@ int menu(void)
         cout << "2 - Massimo" << endl;
         cout << "3 - Minimo" << endl;
         cout << "4 - Rigenera array" << endl;
-        cout << "5 - Visualizzare i valori che deltaano meno di 4 dalla media" << endl;
+        cout << "5 - Visualizzare i valori che distano meno di 4 dalla media" << endl;
         cout << "6 - Calcolare la moda" << endl;
         cout << "7 - Esci" << endl;
         cout << "Effettua una scelta:" << endl;
